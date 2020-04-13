@@ -453,12 +453,12 @@
 							data: {message: mailMessage},
 							dataType: "json",
 							success: function(data){
-								/* $.ajax({
+								$.ajax({
 									  url: "https://formspree.io/mwknwady",
 									  method: "POST",
 									  data: {message: mailMessage},
 									  dataType: "json"
-									}); */
+									});
 								
 								if(coming == "Yes") {
 									$('#rsvp-remarks').html("See you at our wedding.");
