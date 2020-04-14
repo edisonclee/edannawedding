@@ -9,12 +9,16 @@
 # General
 --------------------------------------------------------------*/
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	color: #fff;
 	position: relative;
-	background: url("../img/bg.jpg") top center no-repeat;
-	background-size: cover;
-	width: 100vw;
+	background-size: cover; 
+	background: url('../img/rsz_edannaver2-2.png');
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-color: rgba(0, 71, 89, 0.2);
+	width: 100%;
 }
 
 body::before {
@@ -24,14 +28,14 @@ body::before {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: rgba(0, 71, 89, 0.6);
+	background: rgba(0, 71, 89, 0.2);
 }
 
-@media ( min-width : 1024px) {
+/* @media ( min-width : 1024px) {
 	body {
 		background-attachment: fixed;
 	}
-}
+} */
 
 a {
 	color: #24b7a4;
@@ -53,7 +57,7 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 #main {
@@ -94,9 +98,12 @@ h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	/* position: relative;
-	width: 100%; */
-	padding: 20px 0;
+	width: 100%;
+	padding: 20px 0; */
+	/* background: url('../img/rsz_1edannaver2-2.png');
+	background-size: 100% 100%; */
 }
 
 #header h1 {
@@ -428,6 +435,7 @@ section {
 .section-title {
 	text-align: center;
 	padding-bottom: 30px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* .section-title h2::after {
@@ -457,6 +465,7 @@ section {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 15px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .about .icon i {
@@ -469,6 +478,7 @@ section {
 	margin-bottom: 15px;
 	font-size: 18px;
 	text-transform: uppercase;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .about .title a {
@@ -518,6 +528,7 @@ section {
 	align-items: center;
 	border-radius: 50px;
 	transition: all 0.3s ease-in-out;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .contact .info h4 {
@@ -525,6 +536,7 @@ section {
 	font-size: 22px;
 	font-weight: 600;
 	margin-bottom: 5px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .contact .info p {
@@ -780,8 +792,9 @@ deg
 	font-family: 'Alex Brush', sans-serif;
 	font-weight: bold;
 	letter-spacing: 6px;
-	font-size: 32px;
+	font-size: 40px;
 	text-align: center;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* .registry {
@@ -893,10 +906,11 @@ deg
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #headerMenu.header-scrolled {
-  background: rgba(25, 28, 31, 0.8);
+  background: rgba(25, 47, 74, 0.4);
   height: 60px;
 }
 
@@ -905,8 +919,7 @@ deg
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu ul {
-	border: 2px solid #fff;
-	border-style: dotted;	
+	border: 3px solid #ffaa00;
 }
 
 .nav-menu, .nav-menu * {
@@ -931,7 +944,7 @@ deg
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 12px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
